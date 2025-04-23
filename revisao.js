@@ -1,3 +1,5 @@
+// node caminho_do_arquivo 
+
 console.log("revisão JS")
 
 // variáveis
@@ -67,5 +69,13 @@ const alunos = [
 
 // Filtrar e mostrar os alunos que tenham nota >= 6
 
-const nota = alunos.filter((nome) => (nome.nota) >= 6)
-console.log(nota)
+const alunosAprovados = alunos.filter((aluno) => (aluno.nota) >= 6)
+console.log(alunosAprovados)
+
+//Template string, map e desestruturação
+
+const textos = alunosAprovados.map((aluno) => {
+    const {nome, nota} = aluno
+    return `Aluno(a): ${nome} - Foi aprovado(a) com a Nota: ${nota}`
+})
+console.log(textos)
