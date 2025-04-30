@@ -1,0 +1,64 @@
+
+Variaveis
+
+const nome = "jean" \\ Local e não altera
+var sobrenome = "Souza" \\ Escopo global e altera
+let ultimoNome = "Pereira" \\ Escopo Global e antera
+const idade = 28
+
+const nomeCompletoComIdade = nome + sobrenome + ultimoNome + idade
+
+
+
+NODE é um ambiente que permite executar o .JS 
+
+npm é o gerenciador de pacotes padrão para o ambiente de tempo de execução JavaScript Node.js.
+
+VITE = plugin/ferramenta que agilisa o desenvolvimento web para simplificar..
+
+Instalar NODE => nodejs.ord
+
+	comando no terminal
+		node -v
+			
+		npm create vite@latest
+		
+> npx
+> create-vite
+
+|
+o  Project name:
+|  vite-project
+|
+o  Select a framework:
+|  React
+|
+o  Select a variant:
+|  JavaScript
+|
+o  Scaffolding project in C:\Users\labunivas\JS\vite-project...
+|
+—  Done. Now run:
+
+  cd vite-project
+  npm install
+  npm run dev
+  
+  npm install
+  
+  npm run dev
+	\__ Irá gerar um link onde deverá ser acessado para visualizar o codigo.
+	
+main.jsx
+
+
+.jsx Só retorna 1 elemento
+
+	Palavras Reservadas no .JS
+	
+	const			return
+	let			class => className
+	var			import => htmlFor
+	function		for
+	defaul			while
+	await			onclick => onClick
